@@ -4,6 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Country App</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <h1>Country List</h1>
+    <!-- Sort menu -->
+    <div class="bar">
+      <label for="sort">Sort By: </label>
+      <select name="sort" id="sort">
+        <option value="">Show All</option>
+        <option value="asc">Population - Ascending</option>
+        <option value="desc">Population - Descending</option>
+      </select>
+      <!-- Container for appending the country card -->
+    </div>
+    <div class="container"></div>
+    <script src="index.js"></script>
+  </body>
 </html>
